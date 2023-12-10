@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+canvas{
+    width: 2px;
+    height: 2px;
+
+    position: absolute;
+
+    border-radius: 100%;
+}
+
+.slider-box {
+    display: flex;
+
+    align-items: center;
+
+    width: 500px;
+    height: 50px;
+
+    background-color: gray;
+
+    margin: 50px;
+}
+
+.slider {
+    position: relative;
+    
+    width: 40px;
+    height: 40px;
+
+    background-color: white;
+
+    border-radius: 100%;
+}
